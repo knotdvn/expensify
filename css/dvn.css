@@ -1,0 +1,93 @@
+
+body{
+	 background-color: #5D7BDE;
+}
+
+.ribbon{
+	clear:both;
+	width:100%;
+}
+
+.wrap{
+	clear:both;
+	margin: 0 auto;
+	width:100%;
+	max-width:1200px;
+}
+
+.button{
+	border-radius: 5px;
+	background-color:#C8FF00;
+	border:2px solid white;
+	width:150px;
+	cursor:pointer;
+
+}
+
+.button p{
+	margin:10px 0px;
+	text-align:center;
+	color:grey;
+}
+
+
+
+#transaction{
+	display:none;
+}
+
+#transaction_list, #list_label{
+	list-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+
+#transaction_list span, #list_label span {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    min-width:180px;
+}
+
+#transaction_list span.date, #list_label span.date {
+	border-bottom: 3px solid orange;
+}
+#transaction_list span.merchant, #list_label span.merchant {
+	border-bottom: 3px solid grey;
+}
+#transaction_list span.amount, #list_label span.amount {
+	border-bottom: 3px solid red;
+}
+
+#transaction_list li, #list_label li {
+	background-color:white;
+}
+
+#transaction_list li:nth-child(odd) {
+	background-color: rgba(125,235,54,.8);
+}
+
+
+#create{
+	text-align:center;
+	margin: 20px 0px;
+}
+
+#create input{
+	width:30%;
+	font-size:25px;
+	min-width:300px;
+	margin:10px;
+	
+}
+
+
+#create .button {
+    display: inline-block;
+    margin:10px;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: middle;
+    width: auto;
+}
